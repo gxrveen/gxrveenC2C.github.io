@@ -1,0 +1,91 @@
+html { 
+    background-color:rgb(234, 184, 89);
+}
+
+body { 
+    background-color:rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1vw;
+}
+
+#main-header 
+/* same as body > header  */ { 
+    background-color: rgb(234, 184, 89);
+    color:rgb(248, 247, 247) ;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    font-size: 3vh;
+}
+
+#nav-ul > li {
+    padding: 20px;
+}
+
+.navbutton { 
+    color: rgb(248, 247, 247);
+    text-decoration: none;
+    font-size: 27px;
+    padding: 15px;
+    border: 1px solid rgb(248, 247, 247);
+}
+
+body > main > article { 
+width: 85%;
+margin: auto;
+}
+
+h2 { 
+    text-align: center;
+}
+form {
+    text-align: center;
+ }
+
+
+body > footer { background-color:rgb(234, 184, 89);
+    margin-bottom: 0px;
+    padding: 10px;
+    display: flex;
+    
+}
+#footer-ul {
+    display: flex;
+    list-style: none;
+    margin-left: 15px;
+
+}
+
+#logo {
+    padding: 10px;
+    font-family:"Fredoka One", Arial, Helvetica, sans-serif, sans-serif;
+    font-size: xxx-large ;
+    margin-left: 10px;
+    box-shadow: 10px 10px 15px 5px rgb(215, 151, 32);
+    /* (horizontal offset) (vertical offset) (blur radius) (spread radius)(color) */
+    width: 15%;
+    /* logo outline  */
+    text-shadow: 
+    1px 0px rgb(95, 76, 19), /* (bottom right shadow) */
+    -1px 1px 0px rgb(141, 119, 23), /* bottom left shadow */
+    1px -1px 0px rgb(123, 103, 43), /* top right shadow */
+    -1px -1px 0px rgb(232, 193, 18); /* top left shadow */
+}
+
+main 
+{ padding: 5px;}
+
+header
+{ padding-bottom: 10px;}
+
+img {
+    border-radius: 25%; ;
+}
